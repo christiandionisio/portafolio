@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { InfoPaginaService } from './services/info-pagina.service';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductosService } from './services/productos.service';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProductosService } from './services/productos.service';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
